@@ -4,8 +4,8 @@
 ## Minimundo
 
 A QuickCursos é uma plataforma de qualificação completa em tecnologia com foco na acessibilidade e na integração de Pessoas com Deficiência (PcD) no mercado de trabalho. Contamos com parceiros que acreditam na formação de pessoas. Durante o período do curso oferecemos suporte com equipamentos e bolsa auxílio caso necessário.
-- teste
-<img src="#" width="300" height="300">
+
+<!---<img src="#" width="300" height="300">-->
 
 ## Regras e requisitos
 
