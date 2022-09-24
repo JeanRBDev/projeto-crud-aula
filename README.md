@@ -9,6 +9,8 @@ A QuickCursos é uma plataforma de qualificação completa em tecnologia com foc
 
 ## Regras e requisitos
 
+### Alunos
+
 Após a coleta de informações e entrevistas com possíveis clientes, análise de planilhas e estudos, observamos os seguintes requisitos para o **cadastro de alunos** no nosso sistema:
 
 - O nome do aluno é **obrigatório**, e terá no **máximo** 100 caracteres.
@@ -21,5 +23,25 @@ Após a coleta de informações e entrevistas com possíveis clientes, análise 
 - As observações são *opcionais* e precisam ter no **máximo** 1000 caracteres.
 
 Além das informações acima, o aluno deverá selecionar o curso na área em que deseja atuar.
-  teste 
-  
+
+### Professores
+
+  - o nome completo é **obrigatório**, e terá no **máximo** 100 caracteres.
+  - O RG e CPF são obrigatórios, e precisam ter no **máximo** 13 e 11 caracteres respectivamente, além de aceitarem **apenas números** e o CPF ser **único**.
+  - A data de nascimento é **obrigatória** e precisa usar o parâmetro de data.
+  - O e-mail é **obrigatório** e precisa ser valido.
+  - Informar seu endereço e precisa seguir o padrão requisitado pelos Correios
+  - Cópia em imagem da Carteira de Trabalho
+  - Cópia em imagem do certificado de proficiencia do Curso em que irá lecionar
+  - Comprovante de Conta Bancária
+
+  Além das informações acima, o Professor deverá informar o curso na área em que deseja atuar.
+
+  ### Cursos
+
+  - O nome do Curso é obrigatório e terá no máximo 200 caracteres
+  - O nome do Professor que irá lecionar é obrigatório e terá no máximo 100 caracteres
+  - O nome do Professor substituto é opcional e terá no máximo 100 caracteres
+  - A lista de inclusão de deficiências do curso é obrigatória, por exemplo: se o curso está disponível para pessoas com deficiência auditiva, através de libras ou legendas.
+
+   Cada Curso será atribuído a um Professor que irá lecionar e a uma lista de Alunos.
