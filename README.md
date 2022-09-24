@@ -30,18 +30,18 @@ Além das informações acima, o aluno deverá selecionar o curso na área em qu
   - O RG e CPF são obrigatórios, e precisam ter no **máximo** 13 e 11 caracteres respectivamente, além de aceitarem **apenas números** e o CPF ser **único**.
   - A data de nascimento é **obrigatória** e precisa usar o parâmetro de data.
   - O e-mail é **obrigatório** e precisa ser valido.
-  - Informar seu endereço e precisa seguir o padrão requisitado pelos Correios
-  - Cópia em imagem da Carteira de Trabalho
-  - Cópia em imagem do certificado de proficiencia do Curso em que irá lecionar
-  - Comprovante de Conta Bancária
+  - Informar seu endereço e precisa seguir o padrão requisitado pelos Correios.
+  - Cópia em imagem da Carteira de Trabalho é **obrigatório**.
+  - Cópia em imagem do certificado de proficiencia do curso em que irá lecionar é **obrigatório**.
+  - Comprovante de Conta Bancária é **obrigatório**.
 
-  Além das informações acima, o Professor deverá informar o curso na área em que deseja atuar.
+  Além das informações acima, o professor deverá informar o curso na área em que deseja atuar.
 
   ### Cursos
 
-  - O nome do Curso é obrigatório e terá no máximo 200 caracteres
-  - O nome do Professor que irá lecionar é obrigatório e terá no máximo 100 caracteres
-  - O nome do Professor substituto é opcional e terá no máximo 100 caracteres
-  - A lista de inclusão de deficiências do curso é obrigatória, por exemplo: se o curso está disponível para pessoas com deficiência auditiva, através de libras ou legendas.
+  - O nome do Curso é **obrigatório** e terá no **máximo** 200 caracteres.
+  - O nome do Professor que irá lecionar é **obrigatório** e terá no **máximo** 100 caracteres.
+  - O nome do Professor substituto é *opcional* e terá no **máximo** 100 caracteres.
+  - A lista de inclusão de deficiências do curso é **obrigatória**, por exemplo: se o curso está disponível para pessoas com deficiência auditiva, através de libras ou legendas.
 
-   Cada Curso será atribuído a um Professor que irá lecionar e a uma lista de Alunos.
+   Cada curso será atribuído a um professor que irá lecionar e a uma lista de alunos.
