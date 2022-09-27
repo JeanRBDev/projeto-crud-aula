@@ -45,3 +45,26 @@ Além das informações acima, o aluno deverá selecionar o curso na área em qu
   - A lista de inclusão de deficiências do curso é **obrigatória**, por exemplo: se o curso está disponível para pessoas com deficiência auditiva, através de libras ou legendas.
 
    Cada curso será atribuído a um professor que irá lecionar e a uma lista de alunos.
+
+## Mapa navegacional
+
+---
+
+Seguindo o desenvolvimento do website, assim que o usuário entrar, irá se deparar com a seguinte barra de navegação, contendo elementos importantes como:
+- Logo
+- Botão de busca
+- Botão de ajuda
+- Cursos
+- Listagem de professores
+- Botão de Login & Matrícula
+- Botão de doação e apoio
+
+<img src="https://i.imgur.com/ACQnYTc.png">
+
+---
+
+Ao clicar no botão de Entrar, o usuário visualizará o seguinte menu *dropdown*, permitindo que ele se matricule, recupere a senha caso a tenha perdido ou entre como um professor, caso faça parte do time.
+
+<img src="https://i.imgur.com/morCAFD.png">
+
+---
