@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #52E0FF;
 }
 
 .logo {
@@ -21,21 +20,14 @@ li, a, button {
     height: 40px;
     background: url(images/magnifying-glass.png) no-repeat scroll;
     background-position: 98%;
+    color: #34343b;
     background-color: rgba(217, 127, 128, 0.2);
     border-radius: 5px;
     border-color: white;
     border-style: dashed;
     border-width: thin;
-}
-
-::-webkit-input-placeholder {
-    padding: 20px;
-    font-family: 'Inter', sans-serif;
-  }
-
-:-moz-placeholder {
-    padding: 20px;
-    font-family: 'Inter', sans-serif;
+    outline: none;
+    text-indent: 25px;
 }
 
 .logo__div {
@@ -80,6 +72,7 @@ li, a, button {
     justify-self: flex-end;
     margin-left: -40px;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .button__join {
@@ -97,9 +90,120 @@ li, a, button {
     background-color: rgba(27, 82, 132, 0.5);
 }
 
+.area__login-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.area__login {
+    overflow:hidden;
+    position:absolute;
+    left: 0;
+    height: 0;
+    line-height: 30px;
+    box-sizing:border-box;
+    transition:all 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.area__login-dropdown:hover .area__login {
+    height: 400px;
+}
+
+/*dropdown menu*/
+
+.login {
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(120deg, rgb(23, 53, 80), rgb(66, 210, 255));
+    width: 400px;
+    height: 400px;
+    padding: 35px;
+    /*border-style: dashed;
+    border-color: black;*/
+    border-width: 2px;
+   
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    margin-top:10px;
+    border: none;
+    height: 40px;
+    outline: none;
+    color: #cbd0f7;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.login img{
+    width: 85px;
+    height: auto;
+}
+
+.student__form {
+    text-justify: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.student__info-text {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: center;
+}
+
+.student__info-subtext {
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: center;
+}
+
+.student__info-submit {
+    margin: 15px 35px;
+    font-weight: normal;
+    border-radius: 100em;
+    border: none;
+    color: white;
+    background-color: #1B5284;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.student__info-submit:hover {
+    background-color: rgba(27, 82, 132, 0.5);
+}
+
+.student__info-extra {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    font-weight: normal;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #52E0FF;
+    border-style: solid;
+    border-bottom-width: 20px;
+    border-color: #1B5284;
+}
+
+body {
+    background-image: url(images/home-background.jpg);
 }
