@@ -11,6 +11,7 @@
 }
 
 li, a, button {
+    font-size: 13px;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
@@ -36,7 +37,7 @@ li, a, button {
 }
 
 .logo__text {
-    padding-left: 20px;
+    padding-left: 5px;
     align-self: center;
     font-weight: bolder;
     font-family: 'Inter', sans-serif;
@@ -50,17 +51,36 @@ li, a, button {
 }
 
 .nav__links a {
+    padding: 10px;
     color: black;
-    transition: all 0.3s ease 0s;
+    background:
+    linear-gradient(
+      to right,
+      rgba(27, 82, 132, 0.5),
+      rgba(27, 82, 132, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(27, 82, 132, 0.5),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
+
 
 .nav__links li a:hover {
     color: white;
+    background-size: 0 3px, 100% 3px;
 }
 
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px
+    padding: 0px 10px
 }
 
 .button__help {
@@ -70,17 +90,17 @@ li, a, button {
     background-size: cover;
     border-style: none;
     justify-self: flex-end;
-    margin-left: -40px;
+    margin-left: 0px;
     cursor: pointer;
     background-color: transparent;
 }
 
 .button__join {
-    padding: 15px 35px;
+    width: 197px;
+    height: 55px;
     font-weight: normal;
     border-radius: 100em;
     border: none;
-    color: white;
     background-color: #1B5284;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -90,19 +110,50 @@ li, a, button {
     background-color: rgba(27, 82, 132, 0.5);
 }
 
+.button__join a {
+    color: white;
+}
+
+/*admin section*/
+
+.button__admin {
+    width: 150px;
+    height: 55px;
+    font-weight: normal;
+    border-radius: 100em;
+    border: none;
+    color: white;
+    background-color: #fc8b22;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button__admin:hover {
+    background-color: rgba(255, 94, 0, 0.5);
+}
+
+.button__admin a {
+    color: white;
+}
+
 .area__login-dropdown {
     position: relative;
     display: inline-block;
 }
 
+.area__login-dropdown:after {
+    content: url(images/box-arrow-down.png);
+}
+
 .area__login {
-    overflow:hidden;
-    position:absolute;
+    margin: 20px;
+    overflow: hidden;
+    position: absolute;
     left: 0;
     height: 0;
     line-height: 30px;
-    box-sizing:border-box;
-    transition:all 0.3s ease-in-out;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
     transition-delay: 0.1s;
 }
 
@@ -118,7 +169,7 @@ li, a, button {
     flex-direction: column;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(120deg, rgb(23, 53, 80), rgb(66, 210, 255));
+    background-image: linear-gradient(180deg, rgb(23, 53, 80), rgb(66, 210, 255));
     width: 400px;
     height: 400px;
     padding: 35px;
@@ -135,7 +186,7 @@ li, a, button {
 }
 
 .login input {
-    margin-top:10px;
+    margin-top: 10px;
     border: none;
     height: 40px;
     outline: none;
@@ -144,15 +195,9 @@ li, a, button {
     padding-left: 10px;
 }
 
-.login img{
-    width: 85px;
-    height: auto;
-}
-
 .student__form {
     text-justify: center;
-    width: 100%;
-    padding: 20px;
+    width: 90%
 }
 
 .student__info-text {
@@ -168,15 +213,18 @@ li, a, button {
     color: #FFFFFF;
     font-style: normal;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .student__info-submit {
-    margin: 15px 35px;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
     font-weight: normal;
     border-radius: 100em;
     border: none;
     color: white;
-    background-color: #1B5284;
+    background-color: #1FB692;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -187,6 +235,7 @@ li, a, button {
 
 .student__info-extra {
     font-size: 13px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -197,11 +246,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 15%;
     background-color: #52E0FF;
-    border-style: solid;
-    border-bottom-width: 20px;
-    border-color: #1B5284;
+    border-bottom: 20px solid #1B5284;
+}
+
+@media all and (max-width: 1366px) and (min-height: 400px) {
+    header {
+        padding: 30px 1%;
+
+    }
 }
 
 body {
