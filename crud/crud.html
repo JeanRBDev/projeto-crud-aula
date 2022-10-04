@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+    <header>
+        <div class="logo__div">
+            <a class="logo" href="../index.html"><img src="../images/quicklogo.png" alt="Logo QuickCursos em formato de foguete decolando"></a>
+            <div class="logo__text">
+                <p>QuickCursos</p>
+            </div>
+            <div class="header-title">
+                <h1>Cadastro de Alunos</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarAluno">Cadastrar Aluno</button>
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria</td>
+                    <td>maria@gmail.com</td>
+                    <td>(87) 97165-1111</td>
+                    <td>Boa Viagem</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>João Gomes</td>
+                    <td>joao@gmail.com</td>
+                    <td>(81) 97165-2222</td>
+                    <td>Jd. São Paulo</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Melo</td>
+                    <td>melo@gmail.com</td>
+                    <td>(81) 97165-3333</td>
+                    <td>UNINASSAU</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Aluno</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome do Aluno">
+                    <input type="email" class="modal-field" placeholder="e-mail do Aluno">
+                    <input type="text" class="modal-field" placeholder="Celular do Aluno">
+                    <input type="text" class="modal-field" placeholder="Cidade do Aluno">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">Salvar</button>
+                    <button class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
