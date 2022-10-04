@@ -68,3 +68,7 @@ Ao clicar no botão de Entrar, o usuário visualizará o seguinte menu *dropdown
 <img src="https://i.imgur.com/morCAFD.png">
 
 ---
+
+Ao entrar na área de Admin, o usuário irá se deparar com a página de cadastro de usuário, onde poderá alterar, editar e excluir usuários que estão registrados no banco de dados do sistema.
+
+<img src="https://i.imgur.com/TYJblSI.png>
