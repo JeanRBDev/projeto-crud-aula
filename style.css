@@ -98,6 +98,7 @@ li, a, button {
 .button__join {
     width: 197px;
     height: 55px;
+    color: white;
     font-weight: normal;
     border-radius: 100em;
     border: none;
@@ -256,8 +257,20 @@ header {
         padding: 30px 1%;
 
     }
+
+    .button__join {
+        font-size: 11px;
+        height: 40px;
+        width: 120px;
+    }
+
+    .button__admin {
+        font-size: 11px;
+        height: 40px;
+        width: 120px;
+    }
 }
 
 body {
-    background-image: url(images/home-background.jpg);
+    background-image: url(images/home-background.png);
 }
