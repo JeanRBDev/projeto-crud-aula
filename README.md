@@ -59,11 +59,21 @@ Seguindo o desenvolvimento do website, assim que o usuário entrar, irá se depa
 - Botão de Login & Matrícula
 - Botão de doação e apoio
 
-<img src="https://i.imgur.com/ACQnYTc.png">
+<img src="https://i.imgur.com/PSAvwBy.png">
+
+- A **logo** será o botão principal do usuário para retornar a home. Para usuários que possuem deficiência visual, ao encostar na logo, ela terá uma descrição do formato e do que está escrito, podendo ser informado por algum aplicativo de acessibilidade por voz.
+
+- O **botão de busca** será a principal forma do usuário procura por algum curso específico, usuário ou professor, por exemplo.
+
+- O **botão de ajuda** contém informações em um F.A.Q. para usuários que necessitem de mais informações, contendo, também, as perguntas mais frequentes feitas por usuários.
+
+- A aba de **Cursos** terá uma listagem em cards de todos os cursos disponíveis no programa, podendo visualizar informações do curso e matricular-se nele, caso o aluno deseje.
+
+- A aba de **Professores** tera informação detalha em cards com foto, área, proficiência e qual acessibilidade esse professor tem mais experiência, podendo ler, também, a biografia e informações de contato sobre cada professor do curso.
 
 ---
 
-Ao clicar no botão de Entrar, o usuário visualizará o seguinte menu *dropdown*, permitindo que ele se matricule, recupere a senha caso a tenha perdido ou entre como um professor, caso faça parte do time.
+Ao passar o mouse no botão de Entrar, o usuário visualizará o seguinte menu *dropdown*, permitindo que ele se matricule, recupere a senha caso a tenha perdido ou entre como um professor, caso faça parte do time.
 
 <img src="https://i.imgur.com/morCAFD.png">
 
