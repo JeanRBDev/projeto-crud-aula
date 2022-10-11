@@ -79,6 +79,23 @@ Ao passar o mouse no botão de Entrar, o usuário visualizará o seguinte menu *
 
 ---
 
-Ao entrar na área de Admin, o usuário irá se deparar com a página de cadastro de usuário, onde poderá alterar, editar e excluir usuários que estão registrados no banco de dados do sistema.
+Ao clicar em **Matricule-se**, o usuário será levado para a tela de cadastro, onde todas as informações serão inseridas no Banco de Dados para aprovação ou do matriculado. O usuário também poderá clicar na aba *Sou um professor*, caso ele deseje realizar o cadastro de um professor.
+
+Todas as informações e requisitos dos campos de input seguem a sessão de **Regras e Requisitos** presentes no topo deste mesmo documento.
+
+O usuário poderá clicar na logo do QuickCursos no canto superior esquerdo para retornar a home.
+<img src="https://i.imgur.com/mKZQtqR.png">
+
+---
+
+Ao entrar na área **Admin**, visível apenas para administradores do website, o usuário irá se deparar com a página de cadastro de usuário, onde poderá alterar, editar e excluir usuários que estão registrados no banco de dados do sistema, o mesmo esquema funciona para o cadastro de professores e de cursos.
 
 <img src="https://i.imgur.com/TYJblSI.png">
+
+<img src="https://i.imgur.com/9KBNccY.png">
+
+Opção **Editar** exibe uma tela com as informações necessárias, seja do aluno, professor ou curso selecionado, permitindo atualizar os campos. Caso o usuário clique em *voltar*, irá retornar para a devida listagem, caso clique em *salvar*, as informações serão salvas e altaradas no Banco de Dados, aparecendo uma mensagem de confirmação e voltando para a tela de **Cadastro**.
+
+Opção **Excluir** exibe uma tela confirmando se deseja realmente excluir os dados selecionados, caso o administrador opte por *sim*, os dados serão apagados do Banco de Dados, caso opte por *não*, retornará para a tela de **Cadastro**.
+
+O usuário poderá clicar na logo do QuickCursos no canto superior esquerdo para retornar a home.
