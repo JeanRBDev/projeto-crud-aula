@@ -24,7 +24,7 @@
                 <p>QuickCursos</p>
             </div>
             <div class="header-title">
-                <h1>Cadastro de Alunos</h1>
+                <h1>Cadastro de Cursos</h1>
             </div>
         </div>
         <nav class="nav justify-content-center shadow-lg" id="menu" style="background-color: #005791f1;">
@@ -46,43 +46,39 @@
           </nav>
     </header>
     <main>
-        <button type="button" class="button blue mobile" id="cadastrarAluno">Cadastrar Aluno</button>
+        <button type="button" class="button blue mobile" id="cadastrarAluno">Cadastrar Curso</button>
         <table class="records">
             <thead>
                 <tr>
                     <th>Nome</th>
-                    <th>E-mail</th>
-                    <th>Celular</th>
-                    <th>Cidade</th>
+                    <th>Professor que leciona</th>
+                    <th>Alunos matriculados</th>
                     <th>Ação</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td>Desenvolvimento web</td>
                     <td>Maria</td>
-                    <td>maria@gmail.com</td>
-                    <td>(87) 97165-1111</td>
-                    <td>Boa Viagem</td>
+                    <td>112</td>
                     <td>
                         <button type="button" class="button green">editar</button>
                         <button type="button" class="button red">excluir</button>
                     </td>
                 </tr>
                 <tr>
+                    <td>Redes para computadores</td>
                     <td>João Gomes</td>
-                    <td>joao@gmail.com</td>
-                    <td>(81) 97165-2222</td>
-                    <td>Jd. São Paulo</td>
+                    <td>73</td>
                     <td>
                         <button type="button" class="button green">editar</button>
                         <button type="button" class="button red">excluir</button>
                     </td>
                 </tr>
                 <tr>
+                    <td>Lógica de programação</td>
                     <td>Melo</td>
-                    <td>melo@gmail.com</td>
-                    <td>(81) 97165-3333</td>
-                    <td>UNINASSAU</td>
+                    <td>65</td>
                     <td>
                         <button type="button" class="button green">editar</button>
                         <button type="button" class="button red">excluir</button>
@@ -93,7 +89,7 @@
         <div class="modal" id="modal">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h2>Novo Aluno</h2>
+                    <h2>Novo Curso</h2>
                     <span class="modal-close" id="modalClose">&#10006;</span>
                 </header>
                 <form class="modal-form">

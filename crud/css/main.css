@@ -23,8 +23,11 @@ header{
     background-color: var(--primary-color);
     height: 70px;
     text-align: center;
-    line-height: 70px;
     box-shadow: 0 1px 2px var(--shadow-color);
+}
+
+h1 {
+    font-size: 24px;
 }
 
 .header-title{
@@ -54,6 +57,10 @@ header{
     font-weight: bolder;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
+}
+
+a.nav-link{
+    color: black;
 }
 
 main{
