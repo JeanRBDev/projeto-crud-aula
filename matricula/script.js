@@ -21,14 +21,14 @@ function cadastrar () {
             },
             method: "POST",
             body: JSON.stringify({
-                nomeAluno: nomeAluno.value,
-                cpfAluno: cpfAluno.value,
-                rgAluno: rgAluno.value,
-                emailAluno: emailAluno.value,
-                nascAluno: nascAluno.value,
-                enderecoAluno: enderecoAluno.value,
-                cidadeAluno: cidadeAluno.value,
-                estadoAluno: estadoAluno.value,
+                nome: nomeAluno.value,
+                cpf: cpfAluno.value,
+                rg: rgAluno.value,
+                email: emailAluno.value,
+                dataNascimento: nascAluno.value,
+                endereco: enderecoAluno.value,
+                cidade: cidadeAluno.value,
+                estado: estadoAluno.value,
                 cepAluno: cepAluno.value
             })
         })

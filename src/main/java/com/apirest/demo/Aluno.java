@@ -40,10 +40,10 @@ public class Aluno {
 	@Column(name = "ENDERECO", nullable = false)
 	private String endereco;
 
-	@Column(name = "DEFICIENCIA", length = 50, nullable = false)
-	private String deficiencia;
+	//@Column(name = "DEFICIENCIA", length = 50, nullable = true)
+	//private String deficiencia;
 
-	@Column(name = "LAUDO", nullable = false)
+	@Column(name = "LAUDO", nullable = true)
 	private Boolean laudo;
 
 	@Column(name = "OBS", length = 1000, nullable = true)
