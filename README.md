@@ -88,7 +88,7 @@ O usuário poderá clicar na logo do QuickCursos no canto superior esquerdo para
 
 ---
 
-Ao entrar na área **Admin**, visível apenas para administradores do website, o usuário irá se deparar com a página de cadastro de usuário, onde poderá alterar, editar e excluir usuários que estão registrados no banco de dados do sistema, o mesmo esquema funciona para o cadastro de professores e de cursos.
+Ao entrar na área **Admin**, visível apenas para administradores do website, o usuário irá ter acesso a página de cadastro de usuário, onde poderá alterar, editar e excluir usuários que estão registrados no banco de dados do sistema, o mesmo esquema funciona para o cadastro de professores e de cursos.
 
 <img src="https://i.imgur.com/TYJblSI.png">
 
